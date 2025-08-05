@@ -9,7 +9,7 @@ setlocale(LC_ALL , "Portuguese");
 cout<<" \n Teste de acentuação...:é í ó á à â ô";
 }
 
-int main ()
+int main (){
 nomeFuncao();
 return 0;
 }
