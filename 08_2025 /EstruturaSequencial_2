@@ -5,6 +5,7 @@ using namespace std;
 
 int main(){
 
+
 cout<<"Digite seu salario: R$";
 double salario;
 cin>>salario;
