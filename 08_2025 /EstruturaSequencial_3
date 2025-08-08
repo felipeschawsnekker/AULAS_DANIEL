@@ -1,4 +1,4 @@
-//Número 3;
+k//Número 3;
 
 using namespace std;
 #include <iostream>
@@ -14,6 +14,7 @@ cin>>x[i];
 
 y+=x[i];
 }
+
 cout<<"\nA média é: "<<fixed<<setprecision(2);
 cout<<y/2.0;
 
