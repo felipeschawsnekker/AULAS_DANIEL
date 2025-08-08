@@ -16,5 +16,6 @@ y+=x[i];
 }
 cout<<"\nA média é: "<<fixed<<setprecision(2);
 cout<<y/2.0;
+
 }
 
