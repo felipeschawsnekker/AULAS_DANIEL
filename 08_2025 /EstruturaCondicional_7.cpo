@@ -22,4 +22,5 @@ else if (delta>0) cout<<"x1: "<<x1<<", x2: "<<x2<<endl;
 else if (delta<0) cout<<"Raízes não existem nos reais"<<endl; 
 
 return 0;
+
 }
