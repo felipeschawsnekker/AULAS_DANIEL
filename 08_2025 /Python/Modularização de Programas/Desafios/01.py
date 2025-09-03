@@ -1,4 +1,4 @@
-#from MinhaBib.
+#from MinhaBib import *
 
 lista=[2,4,35,50,23,17,9,12,27,5]
 cont=[0]*10
