@@ -1,0 +1,8 @@
+Recursividade em Python (e em outras linguagens) é quando uma função chama a si mesma para resolver um problema. 
+Ela é especialmente útil para problemas que podem ser divididos em subproblemas menores, como cálculos matemáticos, 
+percorrer estruturas de dados (como árvores) e gerar combinações.
+
+✅ Definição básica
+Uma função recursiva deve sempre ter:
+Caso base (ou condição de parada) – quando a função não se chama mais, para evitar recursão infinita.
+Chamada recursiva – a função se chama com um valor diferente, se aproximando do caso base
