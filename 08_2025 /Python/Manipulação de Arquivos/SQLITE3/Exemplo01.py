@@ -2,7 +2,7 @@ import sqlite3
 import os
 
 def gerabanco():
-    conecta=sqlite3.connect("Escola01.txt")
+    conecta=sqlite3.connect("Escola01.db")
     cursor=conecta.cursor()
     
     cursor.execute('''
