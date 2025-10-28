@@ -12,29 +12,56 @@ struct Cliente{
     double saldo;
     int numero;
 };
-double valor_deposito=0;
-double valor_saque=0;
+Cliente cliente;
+
 double Depositar(double deposito){
-    return valor_deposito+=deposito;
+    return cliente.saldo+=deposito;
 }
 
 double Sacar(double saque){
-    return valor_saque-=saque;
+    return cliente.saldo-=saque;
 }
 
+void Saldo(){
+    cout<<"Saldo Atual: R$"<<cliente.saldo;
+}
+
+void Continuar(){
+cout<<"\nDigite um valor dentre as opções a seguir: \n (1)-SAQUE \n (2)-DEPOSITO \n (3)-SAIR"<<endl;
+    }
+
 int main(){
-    Cliente cliente;
+    
     cout<<"\n =====================BANCO====================== \n";
     cout<<"Digite seu nome: "; getline(cin,cliente.nome);
     cout<<"Digite seu saldo: "; cin>>cliente.saldo;
     cout<<"Digite o número de sua conta: "; cin>>cliente.numero;
-    
+    while(true){
     int i;
-    cout<<"\nDigite um valor dentre as opções a seguir: \n (1)-SAQUE \n (2)-DEPOSITO \n (3)-SAIR"<<endl;
+    Continuar();
     cin>>i;
+    double saque,deposito;
+    cout<<endl;
     
     if(i==1){
+    
         cout<<"DIGITE O VALOR A SER SACADO: ";
-        cin>>
+        cin>>saque;
+        Sacar(saque);
+        Saldo();
+        
+        
+    }
+    else if(i==2){
+        cout<<"DIGITE O VALOR A SER DEPOSITADO: ";
+        cin>>deposito;
+        Depositar(deposito);
+        Saldo();
+        }
+    else if(i==3){
+        cout<<"SAINDO......";
+        break;
+        return 0;
+    }
     }
 }
