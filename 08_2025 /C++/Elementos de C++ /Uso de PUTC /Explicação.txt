@@ -1,0 +1,4 @@
+A função putc em C/C++ é usada para 
+escrever um único caractere em um arquivo 
+(ou na saída padrão, como o console). 
+Ela vem da biblioteca C <cstdio> (ou <stdio.h> em C).
