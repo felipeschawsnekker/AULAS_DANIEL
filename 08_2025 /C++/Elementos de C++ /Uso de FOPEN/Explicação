@@ -1,3 +1,11 @@
 Em C++, fopen é uma função da biblioteca C (<cstdio> ou <stdio.h>).
 Ela abre um arquivo e retorna um ponteiro do tipo FILE*.
 Hoje é mais comum usar std::ifstream / std::ofstream, mas fopen ainda aparece muito, especialmente em código legado
+
+"r"	leitura (arquivo deve existir)
+"w"	escrita (zera o arquivo ou cria um novo)
+"a"	acrescenta ao final
+"r+"	leitura + escrita
+"w+"	leitura + escrita (zera)
+"a+"	leitura + escrita (cursor no fim)
+"rb", "wb"…	modos binários
