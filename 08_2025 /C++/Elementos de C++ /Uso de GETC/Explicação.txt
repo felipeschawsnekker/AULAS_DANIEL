@@ -1,0 +1,15 @@
+getc é uma função usada para ler um único caractere da entrada.
+Quando você usa getc com stdin, ele lê um caractere digitado pelo usuário no teclado.
+
+Ela não lê palavras, nem linhas inteiras — apenas um único caractere por vez.
+
+Quando você digita algo no teclado e aperta ENTER, o sistema envia esses caracteres para o programa, e getc pega o primeiro deles. Se você chamar getc de novo, ele pega o próximo, e assim por diante.
+
+O valor retornado por getc não é um caractere diretamente, e sim um número inteiro que representa o código ASCII do caractere lido. Por exemplo:
+– Se você digita a letra A, o valor retornado é 65 (que é o código ASCII da letra A).
+– Se você digita o número 5, o valor retornado é 53 (código ASCII do caractere '5').
+
+Ele retorna um número inteiro porque precisa ser capaz de retornar também o valor EOF, que indica que acabou a entrada (em arquivos, por exemplo). Esse valor especial não cabe em um tipo char.
+
+getc é uma função muito simples:
+ela lê um caractere do fluxo especificado e retorna o código desse caractere.
