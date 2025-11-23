@@ -1,0 +1,20 @@
+Paradigma Orientado a Objetos (OO) é um estilo de 
+programação baseado na ideia de objetos, que 
+representam entidades do mundo real, e classes, 
+que são moldes para criar esses objetos.
+
+Principais conceitos
+
+Classe: modelo/estrutura que define atributos e métodos.
+
+Objeto: instância de uma classe.
+
+Atributos: características do objeto.
+
+Métodos: comportamentos (funções dentro da classe).
+
+Encapsulamento: ocultar detalhes internos.
+
+Herança: uma classe herda características de outra.
+
+Polimorfismo: objetos diferentes podem reagir de forma diferente à mesma função.
